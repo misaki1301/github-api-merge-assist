@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A224255E2CBCBAB600D34A36 /* SwordWard in Frameworks */ = {isa = PBXBuildFile; productRef = A224255D2CBCBAB600D34A36 /* SwordWard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A224252F2CBBB5C900D34A36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,22 @@
 		A22425382CBBB5C900D34A36 /* github-mergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "github-mergeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A224255B2CBCB8BD00D34A36 /* Exceptions for "github-merge" folder in "github-merge" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A224251A2CBBB5C700D34A36 /* github-merge */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A224251D2CBBB5C700D34A36 /* github-merge */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A224255B2CBCB8BD00D34A36 /* Exceptions for "github-merge" folder in "github-merge" target */,
+			);
 			path = "github-merge";
 			sourceTree = "<group>";
 		};
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A224255E2CBCBAB600D34A36 /* SwordWard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +130,7 @@
 			);
 			name = "github-merge";
 			packageProductDependencies = (
+				A224255D2CBCBAB600D34A36 /* SwordWard */,
 			);
 			productName = "github-merge";
 			productReference = A224251B2CBBB5C700D34A36 /* github-merge.app */;
@@ -195,6 +214,9 @@
 			);
 			mainGroup = A22425122CBBB5C700D34A36;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A224255C2CBCBAB600D34A36 /* XCLocalSwiftPackageReference "../../SwordWard" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A224251C2CBBB5C700D34A36 /* Products */;
 			projectDirPath = "";
@@ -396,6 +418,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "github-merge/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -435,6 +458,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "github-merge/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -591,6 +615,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A224255C2CBCBAB600D34A36 /* XCLocalSwiftPackageReference "../../SwordWard" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../SwordWard;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A224255D2CBCBAB600D34A36 /* SwordWard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwordWard;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A22425132CBBB5C700D34A36 /* Project object */;
 }
